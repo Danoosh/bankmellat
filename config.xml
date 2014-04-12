@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>bankmellat</name>
+            <displayName><![CDATA[درگاه بانگ ملت]]></displayName>
+            <version><![CDATA[2.7]]></version>
+            <description><![CDATA[یک ماژول رایگان برای پذیرش کارت های بانکی توسط درگاه ملت]]></description>
+            <author><![CDATA[Danoosh Miralayi @ Presta-Shop.IR]]></author>
+            <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall>برای حذف جزئیات مطمئن هستید؟</confirmUninstall>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>
