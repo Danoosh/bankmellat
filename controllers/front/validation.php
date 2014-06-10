@@ -74,7 +74,7 @@ class BankMellatValidationModuleFrontController extends ModuleFrontController
 				$message .= ' <br />'.$this->module->l('هشدار: پرداخت مشکوک به تقلب است');
 			}
 			if($this->validate === true)
-				$this->paid = $this->module->validateOrder((int)$this->context->cart->id, _PS_OS_PAYMENT_, (float)$OrderAmount, $this->module->displayName, $message , array(),(int)$this->context->currency->id, false, $this->context->customer->secure_key);
+				$this->paid = $this->module->validateOrder((int)$this->context->cart->id, _PS_OS_PAYMENT_, (int)$OrderAmount, $this->module->displayName, $message , array(),(int)$this->context->currency->id, false, $this->context->customer->secure_key);
 			if(!isset($this->paid) || !$this->paid)
 				$this->errors[] = $this->module->l('خطایی در ثبت سفارش روی داد.');
 			$this->context->cookie->__unset("RefId");
