@@ -13,7 +13,7 @@
 
 class BankMellat extends PaymentModule
 {  
-	private $_html = '';
+	private $_html = ''; //Test
 
 	private  $_webservice = 'https://pgws.bpm.bankmellat.ir/pgwchannel/services/pgw?wsdl';
 	private  $_new_webservice = 'https://pgwsf.bpm.bankmellat.ir:1443/pgwchannel/services/pgw?wsdl';
